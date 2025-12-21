@@ -1,9 +1,14 @@
-@media screen and (max-width:850px){
+@media screen and (max-width:1200px){
     .desktop-nav{
         display:none;
     }
+    #profile{
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+    }
 }
-@media screen and (min-width:851px){
+@media screen and (min-width:1201px){
     .hamburger-nav{
         display:none;
     }
