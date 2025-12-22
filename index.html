@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <nav class="desktop-nav">
+  <nav class="desktop-nav" id="home">
     <div class="logo">Umesh Gautam</div>
     <div>
       <ul class="nav-links">
@@ -20,7 +20,7 @@
       </ul>
     </div>
   </nav>
-  <nav class="hamburger-nav">
+  <nav class="hamburger-nav" id="home">
     <div class="logo">Umesh Gautam</div>
     <div class="hamburger-menu">
       <div class="hamburger-icon" onclick="toggleMenu()">
@@ -57,6 +57,191 @@
       </div>
     </div>
   </section>
+
+  <section id="about">
+    <p class="text-p1">Get To Know More</p>
+    <h1 class="name-text">About Me</h1>
+    <div class="about-container-section">
+      <div class="about-container">
+        <div class="about-details-container experience">
+          <img src="./assets/experience.png" class="experience icon" alt="experience icon picture">
+          <h3>Experience</h3>
+          <p>
+            2+ years
+            <br>
+            Frontend Development
+          </p>
+        </div>
+        <div class="about-details-container education">
+          <img src="./assets/education.png" class="education icon" alt="education icon picture">
+          <h3>Education</h3>
+          <p>
+            Bachelors Degree in 
+            <br>
+            Computer Science & Information Techhnology
+          </p>
+        </div>
+      </div>
+      <div class="about-text">
+        <p>I'm a curious and motivated web developer who enjoys building interactive web applications. With experience in HTML, CSS, JavaScript, and React, I'm always eager to learn, experiment, and grow as a developer.</p>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" class="icon arrow" alt="down headed arrow" onclick="location.href='./#experience'">
+  </section>
+
+  <section id="experience">
+    <p class="text-p1">Explore My</p>
+    <h1 class="name-text">Experience</h1>
+    <div class="about-container-section">
+      <div class="about-container">
+        <div class="experience-details-container">
+          <p class="text-p2">Web Development</p>
+          <div class="articles-container">
+            <article>
+              <img src="./assets/checkmark.png" class="icon checkmark" alt="checkmark icon">
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" class="icon checkmark" alt="checkmark icon">
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" class="icon checkmark" alt="checkmark icon">
+              <div>
+                <h3>JavaScript</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" class="icon checkmark" alt="checkmark icon">
+              <div>
+                <h3>React JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" class="icon checkmark" alt="checkmark icon">
+              <div>
+                <h3>Material UI</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" class="icon checkmark" alt="checkmark icon">
+              <div>
+                <h3>MongoDB</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" class="icon checkmark" alt="checkmark icon">
+              <div>
+                <h3>Node JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" class="icon checkmark" alt="checkmark icon">
+              <div>
+                <h3>Express JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" class="icon checkmark" alt="checkmark icon">
+              <div>
+                <h3>Git</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" class="icon arrow" alt="down headed arrow icon" onclick="location.href='./#projects'">
+  </section>
+
+  <section id="projects">
+    <p class="text-p1">Browse My Recent</p>
+    <h1 class="name-text">Projects</h1>
+    <div class="projects-container-section">
+      <div class="projects-container">
+        <div class="experience-details-container">
+          <img src="./assets/chef_claude.png" alt="Picture of the project Chef Claude" class="project-image">
+          <h2 class="project-name">Chef Claude</h2>
+          <div class="project-links">
+            <button class="btn btn-color-1 project-viewer-btn">Github</button>
+            <button class="btn btn-color-1 project-viewer-btn">Live Demo</button>
+          </div>
+        </div>
+        <div class="experience-details-container">
+          <img src="./assets/memegenerator.png" alt="picture of the project Meme Generator" class="project-image">
+          <h2 class="project-name">Meme Generator</h2>
+          <div class="project-links">
+            <button class="btn btn-color-1 project-viewer-btn">Github</button>
+            <button class="btn btn-color-1 project-viewer-btn">Live Demo</button>
+          </div>
+        </div>
+        <div class="experience-details-container">
+          <img src="./assets/tenzies.png" alt="picture of the project Tenzies" class="project-image">
+          <h2 class="project-name">Tenzies</h2>
+          <div class="project-links">
+            <button class="btn btn-color-1 project-viewer-btn">Github</button>
+            <button class="btn btn-color-1 project-viewer-btn">Live Demo</button>
+          </div>
+        </div>
+        <div class="experience-details-container">
+          <img src="./assets/windowtracker.png" alt="picture of the project Window Tracker" class="project-image">
+          <h2 class="project-name">Window Tracker</h2>
+          <div class="project-links">
+            <button class="btn btn-color-1 project-viewer-btn">Github</button>
+            <button class="btn btn-color-1 project-viewer-btn">Live Demo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" class="icon arrow" alt="down headed arrow icon" onclick="location.href='./#contact'">
+  </section>
+
+  <section id="contact">
+    <p class="text-p1">Get in Touch</p>
+    <h1 class="name-text">Contact Me</h1>
+    <div class="contact-outer-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" class="icon email" alt="Email icon" onclick="location.href='https://mail.google.com/mail/?view=cm&fs=1&to=umeshg1008@gmail.com'">
+        <p>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=umeshg1008@gmail.com">umeshg1008@gmail.com</a>
+        </p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" class="icon linkedin" alt="Linkedin Icon picture" onclick="location.href='https://www.linkedin.com/in/umesh-gautam-b510a9279/'">
+        <p>
+          <a href='https://www.linkedin.com/in/umesh-gautam-b510a9279/'>LinkedIn</a>
+        </p>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" class="icon arrow last-arrow" alt="down headed arrow icon" onclick="location.href='./#home'">
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li>About</li>
+          <li>Experience</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </nav>
+    <p class="text-p1 footer-p">Copyright © 2025 Umesh Gautam. All Rights Reserved.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
