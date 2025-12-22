@@ -2,6 +2,9 @@
     .desktop-nav{
         display:none;
     }
+    section{
+        margin:0 2rem;    
+    }
     #profile{
         flex-direction:column;
         justify-content: center;
@@ -12,6 +15,21 @@
     width:40vh;
     border-radius:20vh;
     }
+    .about-container{
+        flex-direction:column;
+    }
+    .arrow{
+        display:none;
+    }
+    #experience,#projects,#contact{
+        margin-top:0rem;
+        margin-bottom:0rem;
+    }
+    #contact{
+        max-height:50vh;
+    }
+    
+    
 }
 @media screen and (min-width:1201px){
     .hamburger-nav{
